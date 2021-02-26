@@ -11,10 +11,14 @@
 
 android {
   defaultConfig {
-    minSdkVersion 17
+    minSdkVersion 21
     generatedDensities = []
   }
   aaptOptions {
     additionalParameters "--no-version-vectors"
   }
+  dependencies {
+    
+  }
+
 }
